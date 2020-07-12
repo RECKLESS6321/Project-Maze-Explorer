@@ -20,7 +20,7 @@ class Graph:
       node = self.graph_dict[current_room]
       for connected_room, weight in node.edges.items():
         key = connected_room[0]
-        print("enter {0} for {1}: {2} cost".format(key, connected_room, weight))
+        print("enter {0} for next room".format(key))
       valid_choices = [room[0] for room in node.edges.keys()]
       print("\n You have accumulated: {} cost".format(path_total))
       choice = input("\nWhich room do you move to?")
