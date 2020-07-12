@@ -36,15 +36,9 @@ class Graph:
     print("Made it to the treasure room with {} cost".format(path_total))
 
   def print_map(self):
-    print("\nMAZE LAYOUT\n")
-    for node_key in self.graph_dict:
-      print("{0} connected to...".format(node_key))
-      node = self.graph_dict[node_key]
-      for adjacent_node, weight in node.edges.items():
-        print("=> {0}: cost is {1}".format(adjacent_node, weight))
-      print("")
+    print("Best of luck Explorer!")
     print("")
-
+    
 def build_graph():
   graph = Graph()
   
