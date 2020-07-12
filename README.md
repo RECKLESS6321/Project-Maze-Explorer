@@ -6,4 +6,4 @@ and shit
 i really dont want to learn/use graph with complex algorithem
 
 this shit is already confusing
-most of the code i use in this project idk what it do
+most of the code i used in this project idk what it do
